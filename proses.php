@@ -4,8 +4,8 @@
     // membuat variabel untuk memanggil elemen form
     // dan mengambil nilainya
 
-    $ktp = $_POST['noktp'];
-    $hp = $_POST['nohp'];
+    $noktp = $_POST['noktp'];
+    $nohp = $_POST['nohp'];
     $nama = $_POST['nm'];
     $alamat = $_POST['alm'];
     $keperluan = $_POST['kpl'];
@@ -14,7 +14,7 @@
     // untuk menginputkan nilai $ktp, $hp, $nama, $alamat
     // ke tabek tamu
 
-    $query = mysqli_query($config, "INSERT INTO tamu VALUES ('$ktp','$hp','$nama','$alamat', '$keperluan')");
+    $query = mysqli_query($config, "INSERT INTO tamu VALUES ('$noktp','$nohp','$nama','$alamat', '$keperluan')");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,7 @@
 
     <div class="flex items-center justify-center min-h-screen bg-gray-100">
         <div class="text-center bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-            <img src="assets/images/head.png" alt="Logo" class="mx-auto mb-6 w-40">
+            <img src="assets/images/ATRBPN.png" alt="Logo" class="mx-auto mb-6 w-40">
             <h2 class="text-2xl font-semibold text-green-600 mb-4">TERIMA KASIH TELAH MENGISI BUKU TAMU!</h2>
             <a href="index.php" class="bg-yellow-500 text-white py-2 px-6 rounded-full font-semibold hover:bg-yellow-600 transition duration-300">OK</a>
         </div>

@@ -20,6 +20,4 @@ Aplikasi ini memiliki fitur untuk menambah, mengubah, menghapus, dan mencetak da
 
 ## 📥 Cara Instalasi
 
-1. **Clone Repository**:
-   ```bash
-   git clone https://github.com/MochArisRofii/BukuTamu.git
+
